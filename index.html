@@ -2,28 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Call of Cthulhu Scene</title>
+  <title>Join Call of Cthulhu</title>
   <style>
     body {
-      margin: 0;
-      background: black;
+      font-family: sans-serif;
+      background: #111;
+      color: white;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      height: 100vh;
+      padding-top: 50px;
     }
-    iframe {
-      border: none;
-      width: 1280px;
-      height: 720px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    a {
+      display: block;
+      margin: 10px;
+      padding: 15px 30px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border: 2px solid #444;
+      border-radius: 8px;
+      transition: 0.2s;
+    }
+    a:hover {
+      background: #333;
+      border-color: #666;
     }
   </style>
 </head>
 <body>
-  <iframe 
-    src="https://vdo.ninja/?room=call_of_cthulhu_andrey_0101&view=group&password=cAllOFcthulhu&labels=true&slots=4&cleanoutput&width=1280&height=720" 
-    allow="camera; microphone; fullscreen">
-  </iframe>
+  <h1>Join the Game Room</h1>
+  <p>Click your name to join the Call of Cthulhu room:</p>
+
+  <a href="https://vdo.ninja/?room=call_of_cthulhu_andrey_0101&push=keeper&autostart&cleanoutput" target="_blank">Keeper</a>
+  <a href="https://vdo.ninja/?room=call_of_cthulhu_andrey_0101&push=alice&autostart&cleanoutput" target="_blank">Alice</a>
+  <a href="https://vdo.ninja/?room=call_of_cthulhu_andrey_0101&push=bob&autostart&cleanoutput" target="_blank">Bob</a>
+  <a href="https://vdo.ninja/?room=call_of_cthulhu_andrey_0101&push=ethan&autostart&cleanoutput" target="_blank">Ethan</a>
+
 </body>
 </html>
